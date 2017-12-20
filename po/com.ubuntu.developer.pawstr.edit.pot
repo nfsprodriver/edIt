@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-24 18:53+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../app/components/CloseFileDialog.qml:8
+msgid "Close file"
+msgstr ""
+
+#: ../app/components/CloseFileDialog.qml:9
+msgid "Are you sure you want to close this file?"
+msgstr ""
+
+#: ../app/components/CloseFileDialog.qml:12
+#: ../app/components/RemoveFileDialog.qml:11
+msgid "Yes"
+msgstr ""
+
+#: ../app/components/CloseFileDialog.qml:25
+#: ../app/components/RemoveFileDialog.qml:27
+msgid "No"
+msgstr ""
+
+#: ../app/components/RemoveFileDialog.qml:8
+msgid "Remove file"
+msgstr ""
+
+#: ../app/components/RemoveFileDialog.qml:9
+msgid "Are you sure you want to remove the selected file?"
+msgstr ""
+
+#: ../app/components/SaveAsDialog.qml:8 ../app/components/Toolbar.qml:84
+#: ../app/components/UnsavedDialog.qml:29
+msgid "Save as"
+msgstr ""
+
+#: ../app/components/SaveAsDialog.qml:9
+msgid "Enter a name for the file to save."
+msgstr ""
+
+#: ../app/components/SaveAsDialog.qml:17 ../app/components/Toolbar.qml:72
+#: ../app/components/UnsavedDialog.qml:12
+msgid "Save"
+msgstr ""
+
+#: ../app/components/SaveAsDialog.qml:24
+msgid "Couldn't write"
+msgstr ""
+
+#: ../app/components/SaveAsDialog.qml:26 ../app/edIt.qml:92
+#: ../app/edIt.qml:104
+msgid "Saved"
+msgstr ""
+
+#: ../app/components/SaveAsDialog.qml:37
+msgid "Cancel"
+msgstr ""
+
+#: ../app/components/Toolbar.qml:9
+msgid "Undo"
+msgstr ""
+
+#: ../app/components/Toolbar.qml:16
+msgid "Redo"
+msgstr ""
+
+#: ../app/components/Toolbar.qml:23 ../app/ui/SettingsPage.qml:7
+msgid "Settings"
+msgstr ""
+
+#: ../app/components/Toolbar.qml:31
+msgid "Search"
+msgstr ""
+
+#: ../app/components/Toolbar.qml:92
+msgid "Open with"
+msgstr ""
+
+#: ../app/components/Toolbar.qml:100
+msgid "File must be saved"
+msgstr ""
+
+#: ../app/components/Toolbar.qml:105
+msgid "Open"
+msgstr ""
+
+#: ../app/components/Toolbar.qml:113 ../app/ui/LocalFilePicker.qml:8
+msgid "Local files"
+msgstr ""
+
+#: ../app/components/UnsavedDialog.qml:8
+msgid "Unsaved changes"
+msgstr ""
+
+#: ../app/components/UnsavedDialog.qml:9
+msgid ""
+"There are unsaved changes. Do you want to save this file before closing?"
+msgstr ""
+
+#: ../app/components/UnsavedDialog.qml:39
+msgid "Close without saving"
+msgstr ""
+
+#: ../app/edIt.qml:88
+msgid ""
+"Couldn't overwrite.\n"
+"Saved as "
+msgstr ""
+
+#: ../app/edIt.qml:95
+msgid "Location isn't writable"
+msgstr ""
+
+#: ../app/edIt.qml:193 ../app/ui/TabsPage.qml:7
+msgid "Tabs"
+msgstr ""
+
+#: ../app/edIt.qml:245
+msgid "Case sensitive"
+msgstr ""
+
+#: ../app/edIt.qml:245
+msgid "Case insensitive"
+msgstr ""
+
+#: ../app/edIt.qml:288
+msgid "search..."
+msgstr ""
+
+#: ../app/edIt.qml:307
+msgid " of "
+msgstr ""
+
+#: ../app/ui/LocalFilePicker.qml:75
+msgid "Remove"
+msgstr ""
+
+#: ../app/ui/SettingsPage.qml:19 ../app/ui/SettingsPage.qml:23
+msgid "Word wrap"
+msgstr ""
+
+#: ../app/ui/SettingsPage.qml:35 ../app/ui/SettingsPage.qml:39
+msgid "Text prediction"
+msgstr ""
+
+#: ../app/ui/SettingsPage.qml:51 ../app/ui/SettingsPage.qml:55
+msgid "Information popup fading"
+msgstr ""
+
+#: ../app/ui/SettingsPage.qml:72
+msgid "Fading time: "
+msgstr ""
+
+#: ../app/ui/SettingsPage.qml:72
+msgid "s"
+msgstr ""
+
+#: ../app/ui/SettingsPage.qml:88 ../app/ui/SettingsPage.qml:92
+msgid "Automatic orientation"
+msgstr ""
+
+#: ../app/ui/TabsModel.qml:11
+msgid "[untitled]"
+msgstr ""
+
+#: ../app/ui/TabsPage.qml:175 ../app/ui/TabsPage.qml:192
+msgid "Release to create a new tab"
+msgstr ""
+
+#: ../app/ui/TabsPage.qml:175 ../app/ui/TabsPage.qml:192
+msgid "Pull to create a new tab"
+msgstr ""
+
+#: /home/bjarne/Schreibtisch/build-edit-UbuntuSDK_for_device_armhf_1504_GCC_armhf_ubuntu_sdk_15_04-Vorgabe/po/edIt.desktop.in.h:1
+msgid "edIt"
+msgstr ""

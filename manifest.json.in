@@ -1,0 +1,16 @@
+{
+    "name": "@APP_ID@",
+    "description": "EdIt is a simple text editor.",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "edIt": {
+            "apparmor": "edIt.apparmor",
+            "desktop": "edIt.desktop",
+            "content-hub": "edIt-contenthub.json"
+        }
+    },
+    "version": "2.0",
+    "maintainer": "Paweł Stroka <pawstr@gmail.com>",
+    "framework": "ubuntu-sdk-15.04.6"
+}

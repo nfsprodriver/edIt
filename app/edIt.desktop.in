@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=edIt
+Comment=Create and edit text files in a simple way.
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+
+
