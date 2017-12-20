@@ -18,7 +18,7 @@ Component {
             color: UbuntuColors.green
             onClicked: {
                 PopupUtils.close(dialogue)
-                var newFileName = "file://" + fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/" +
+                var newFileName = "file://" + fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/" +
                         fileName.text;
                 if(!fileIO.write(newFileName, root.textArea.text)) {
                     showInfo(i18n.tr("Couldn't write"));

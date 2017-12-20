@@ -25,7 +25,7 @@ set(QT_IMPORTS_DIR "lib/${ARCH_TRIPLET}")
 option(INSTALL_TESTS "Install the tests on make install" on)
 
 set(APP_NAME          edIt)
-set(APP_ID            "com.ubuntu.developer.pawstr.edit")
+set(APP_ID            "edit.nfsprodriver")
 set(EDIT_DIR "share/qml/edIt")
 set(MAIN_QML          "edIt.qml")
 set(ICON              "graphics/edIt.png")

@@ -11,7 +11,7 @@ Component {
             text: i18n.tr("Yes")
             color: UbuntuColors.green
             onClicked: {
-                fileIO.remove(fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/" + localFilePicker.fileName)
+                fileIO.remove(fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/" + localFilePicker.fileName)
 
                 if(root.title == localFilePicker.fileName)
                     root.saved = false

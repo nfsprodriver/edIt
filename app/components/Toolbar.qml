@@ -76,7 +76,7 @@ ActionList {
                     saveAsDialog.closeAction = null
                     PopupUtils.open(saveAsDialog)
                 } else {
-                    saveFile(root.importItems[0],fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/")
+                    saveFile(root.importItems[0],fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/")
                 }
             }
         },
@@ -193,7 +193,7 @@ ToolbarItems {
                     saveAsDialog.closeAction = null
                     PopupUtils.open(saveAsDialog)
                 } else {
-                    saveFile(root.importItems[0],fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/")
+                    saveFile(root.importItems[0],fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/")
                 }
             }
         }

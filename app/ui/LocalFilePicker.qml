@@ -20,7 +20,7 @@ Page {
 
     onActiveChanged: {
         if(active) {
-            root.fileList = fileIO.getLocalFileList(fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/")
+            root.fileList = fileIO.getLocalFileList(fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/")
             listModel.clear();
             for(var i=0; i<root.fileList.length; i++) {
 //                console.log(root.fileList[i]);
@@ -35,7 +35,7 @@ Page {
             property string fileName
             id: closeAction
             onTriggered: {
-                root.importItems[0].url = "file://" + fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/" + fileName;
+                root.importItems[0].url = "file://" + fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/" + fileName;
                 root.textArea.text = fileIO.read(root.importItems[0].url);
                 root.title = fileIO.getFullName(root.importItems[0].url);
                 tabsModel.updateTabs()
@@ -89,7 +89,7 @@ Page {
 //                fileName = text
 //                fileIndex = index
                 if(exportRequest) {
-                    var url = "file://" + fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/" + text;
+                    var url = "file://" + fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/" + text;
                     root.activeTransfer.items = [ resultComponent.createObject(root, {"url": url}) ];
                     root.activeTransfer.state = ContentTransfer.Charged;
 
@@ -106,7 +106,7 @@ Page {
                 }
             }
             onItemRemoved: {
-                fileIO.remove(fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/" + text)
+                fileIO.remove(fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/" + text)
 
                 if(root.title == text)
                     root.saved = false

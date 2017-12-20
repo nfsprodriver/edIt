@@ -18,7 +18,7 @@ Component {
                     saveAsDialog.closeAction = unsavedDialog.closeAction
                     PopupUtils.open(saveAsDialog)
                 } else {
-                    saveFile(root.importItems[0],fileIO.getHomePath() + "/.local/share/com.ubuntu.developer.pawstr.edit/")
+                    saveFile(root.importItems[0],fileIO.getHomePath() + "/.local/share/edit.nfsprodriver/")
 
                     if(unsavedDialog.closeAction !== null)
                         unsavedDialog.closeAction.trigger()

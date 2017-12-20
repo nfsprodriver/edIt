@@ -11,6 +11,6 @@
         }
     },
     "version": "2.0",
-    "maintainer": "Paweł Stroka <pawstr@gmail.com>",
+    "maintainer": "Bjarne Roß <ross.b@freenet.de>",
     "framework": "ubuntu-sdk-15.04.6"
 }
